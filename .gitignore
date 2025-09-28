@@ -1,0 +1,47 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Docker volumes
+mysql_data/
+mariadb_data/
+redis_data/
+
+# Site files (exclude from version control)
+sites/*
+sites/*/**
+sites/*/storage/
+sites/*/bootstrap/cache/
+sites/*/vendor/
+sites/*/node_modules/
+
+statamic-app
+
+# Logs
+*.log
+logs/
+
+# SSL certificates
+nginx/ssl/*.pem
+nginx/ssl/*.key
+nginx/ssl/*.crt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
