@@ -1,0 +1,2 @@
+# This file ensures the sites/ directory is tracked in Git
+# Each site in this directory has its own independent Git repository

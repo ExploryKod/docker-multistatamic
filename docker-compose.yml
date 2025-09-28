@@ -57,6 +57,7 @@ services:
       context: ./sites/multiblachere
       dockerfile: Dockerfile
     container_name: statamic-app
+    user: "1000:1000"  # Maps to your host user
     environment:
       APP_NAME: "Groupe Blachere"
       APP_ENV: ${APP_ENV:-local}

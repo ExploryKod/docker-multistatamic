@@ -8,13 +8,9 @@ mysql_data/
 mariadb_data/
 redis_data/
 
-# Site files (exclude from version control)
+# Site files (exclude contents but keep the folder structure)
 sites/*
-sites/*/**
-sites/*/storage/
-sites/*/bootstrap/cache/
-sites/*/vendor/
-sites/*/node_modules/
+!sites/.gitkeep
 
 statamic-app
 
